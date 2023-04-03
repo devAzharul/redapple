@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Banner from"../src/components/Banner/Banner"
 import Navbar from '@/src/components/Navbar/Navbar'
 import Footer from '@/src/components/Footer/Footer'
+import Menu from '@/src/components/Menu/Menu'
 
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       </Head>
      <Banner/>
      <Navbar/>
+     <Menu/>
      <Footer/>
      </div>
     </>
