@@ -7,7 +7,7 @@ import {GrFacebookOption} from'react-icons/gr'
 const Banner = () => {
     
     return (     
-<div className="px-8 py-2 bg-gray-900 text-gray-100">
+<div className="px-8 py-2 bg-red-600 text-gray-100">
 	<div className="flex items-center mx-auto container justify-center md:justify-between">
 		<div>
 			<span className='ml-5 inline-flex'><span className='mt-1 mx-1'><BsPhone/></span>019 REDAPPLE&nbsp;</span>
