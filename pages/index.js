@@ -5,6 +5,7 @@ import Footer from '@/src/components/Footer/Footer'
 import Menu from '@/src/components/Menu/Menu'
 
 
+
 export default function Home() {
   return (
     <>
