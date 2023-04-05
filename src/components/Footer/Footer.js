@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <footer className="footer footer-center mb-0 p-4 bg-base-300 text-base-content dark:bg-slate-800 dark:text-white">
+        <footer className="p-8 mt-14 footer footer-center mb-0 bg-red-700 text-white dark:bg-slate-800 dark:text-white">
         <div>
             <p>Copyright © 2023 - All right reserved by Red Apple</p>
         </div>

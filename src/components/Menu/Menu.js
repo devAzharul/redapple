@@ -1,10 +1,14 @@
 import Image from 'next/image';
 import React from 'react';
-import img1 from'../../../public/images/IMG_9941.jpg'
-import img2 from'../../../public/images/jute bag 1.jpg'
-import img3 from'../../../public/images/web-pic-g-2.jpg'
-import img4 from'../../../public//images/WhatsApp Image 2021-12-28 at 7.15.07 PM (3).jpeg'
-import img5 from'../../../public/images/WhatsApp Image 2022-03-07 at 12.36.39 PM.jpeg'
+import img1 from'../../../public/images/1.jpg'
+import img2 from'../../../public/images/2.jpg'
+import img3 from'../../../public/images/3.jpg'
+import img4 from'../../../public//images/4.jpg'
+import img5 from'../../../public/images/5.jpg'
+import img6 from'../../../public/images/6.jpg'
+import img7 from'../../../public/images/7.jpg'
+import img8 from'../../../public/images/8.jpg'
+import img9 from'../../../public/images/9.jpg'
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -14,7 +18,10 @@ const Menu = () => {
     const settings = {
         infinite: true,
         autoplay:true,
+        fade:true,
+        lazyLode:true,
         speed: 500,
+        autoplaySpeed:8000,
         slidesToShow: 1,
         slidesToScroll: 1
       };
@@ -56,6 +63,18 @@ const Menu = () => {
           </div>
           <div>
           <Image src={img5} />
+          </div>
+          <div>
+          <Image src={img6} />
+          </div>
+          <div>
+          <Image src={img7} />
+          </div>
+          <div>
+          <Image src={img8} />
+          </div>
+          <div>
+          <Image src={img9} />
           </div>
         </Slider>
       </div>
