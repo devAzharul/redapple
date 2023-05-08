@@ -1,8 +1,4 @@
-import Link from 'next/link';
 import React from 'react';
-import barcode from "../../../public/images/WhatsApp Image 2023-04-12 at 3.04.04 PM (1).jpeg"
-import barcode1 from "../../../public/images/WhatsApp Image 2023-04-12 at 3.04.04 PM.jpeg"
-import Image from 'next/image';
 
 const Footer = () => {
     return (
