@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 const Footer = () => {
     return (
-        <footer className="flex justify-around items-center p-8 mt-14 footer mb-0 bg-red-700 text-white dark:bg-slate-800 dark:text-white">
+        <footer className="flex justify-around items-center p-8 mt-14 footer mb-0 bg-red-600 text-white dark:bg-slate-800 dark:text-white">
             <div>
                 <Image src={barcode} height="100" width="100" />
             </div>

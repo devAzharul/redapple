@@ -47,7 +47,11 @@ const ContactScreen = () => {
                             <span className="mb-1">Message</span>
                             <textarea rows="3" className="block w-full rounded-md focus:ring focus:ring-opacity-75 focus:ring-violet-400 dark:bg-gray-800"></textarea>
                         </label>
-                        <button type="button" className="self-center px-8 py-3 text-lg rounded focus:ring hover:ring focus:ring-opacity-75 dark:bg-violet-400 dark:text-gray-900 focus:ring-violet-400 hover:ring-violet-400">Submit</button>
+                        <button style={{
+                            text: 'white',
+                            borderColor: 'red',
+                            backgroundColor: '#cc0000'
+                        }} type="button" className="btn">Submit</button>
                     </form>
                 </div>
             </section>

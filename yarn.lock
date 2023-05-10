@@ -605,6 +605,11 @@ react-image-gallery@^1.2.11:
   resolved "https://registry.yarnpkg.com/react-image-gallery/-/react-image-gallery-1.2.11.tgz#707331e71b02964f00c1f3ab98e9efe071ff9f15"
   integrity sha512-YLMCdNSCf3YPhRmnjEOdEZGEXghTMx4o3dlAqd0rz0nAyebUvTz/xJnIHPActbPSHCvVJgt5A09EPHYbGqw++w==
 
+react-photo-album@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/react-photo-album/-/react-photo-album-2.2.1.tgz#2dfe0501245c194a3268ae50534d1af1df256588"
+  integrity sha512-5FOFguUFldQf4xqlDmGOqrnuK7Th1h3Nf3jTJ6Yi44OtdNhhoOlZv1RHp/qBm7cZTyhdjRAbgb4Bkxx7/j+EWQ==
+
 react-slick@^0.29.0:
   version "0.29.0"
   resolved "https://registry.npmjs.org/react-slick/-/react-slick-0.29.0.tgz"
