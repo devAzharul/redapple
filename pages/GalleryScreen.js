@@ -1,9 +1,8 @@
 import React from 'react';
-import Layout from './Layout/Layout';
 import ImageGallery from 'react-image-gallery';
-import style from '../styles/About.module.css'
-import 'react-image-gallery/styles/css/image-gallery.css'
-import 'react-image-gallery/styles/scss/image-gallery.scss'
+import Layout from './Layout/Layout';
+import style from '../styles/About.module.css';
+import 'react-image-gallery/styles/css/image-gallery.css';
 
 const images = [
     {
@@ -93,7 +92,7 @@ const GalleryScreen = () => {
         <Layout title="Gallery">
             <section className={style.body}>
                 <div className='pt-12 pb-12'>
-                    <ImageGallery items={images} />;
+                    <ImageGallery items={images} />
                 </div>
             </section>
         </Layout>

@@ -1,8 +1,13 @@
 import React from 'react';
 import Layout from './Layout/Layout';
-import style from '../styles/About.module.css'
+import style from '../styles/About.module.css';
 
 const ContactScreen = () => {
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        // TODO: Handle form submission logic
+    };
+
     return (
         <Layout title="Contact">
             <section className={style.body}>
@@ -36,7 +41,7 @@ const ContactScreen = () => {
                                 </p>
                             </div>
                         </div>
-                        <form className="flex flex-col py-6 space-y-6 md:py-0 md:px-6 ng-untouched ng-pristine ng-valid">
+                        <form className="flex flex-col py-6 space-y-6 md:py-0 md:px-6">
                             <label className="block">
                                 <span className="mb-1">Full name</span>
                                 <input type="text" placeholder="Name" className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:ring-violet-400 dark:bg-gray-800" />
@@ -49,11 +54,7 @@ const ContactScreen = () => {
                                 <span className="mb-1">Message</span>
                                 <textarea rows="3" className="block w-full rounded-md focus:ring focus:ring-opacity-75 focus:ring-violet-400 dark:bg-gray-800"></textarea>
                             </label>
-                            <button style={{
-                                text: 'white',
-                                borderColor: 'red',
-                                backgroundColor: '#cc0000'
-                            }} type="button" className="btn">Submit</button>
+                            <button type="submit" className="btn" onClick={handleSubmit}>Submit</button>
                         </form>
                     </div>
                 </div>
