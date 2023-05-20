@@ -29,7 +29,7 @@ const Clients = () => {
     slidesToScroll: 1
   };
   return (
-    <div>
+    <div className='pb-20'>
       <h1 className='pb-5 text-center text-xl font-bold'>Our Trusted Clients</h1>
       <div>
         <Slider {...settings}>
