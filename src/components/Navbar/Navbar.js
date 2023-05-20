@@ -7,7 +7,7 @@ const Navbar = () => {
     return (
         <div className="navbar flex justify-between bg-white text-gray-900">
             <div>
-                <Link href='/' className="btn btn-ghost normal-case text-xl"><Image src={logo} height="20" width="100" /></Link>
+                <Link href='/' className="btn btn-ghost normal-case text-xl"><Image src={logo} width="100" /></Link>
             </div>
             <div>
                 <Link className='mr-5 text-lg' href="/">Home</Link>

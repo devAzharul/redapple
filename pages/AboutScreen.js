@@ -1,10 +1,10 @@
 import React from 'react';
 import Layout from './Layout/Layout';
-
+import style from '../styles/About.module.css'
 const AboutScreen = () => {
     return (
         <Layout title="About">
-            <section className="my-8">
+            <section className={style.body}>
                 <div className="container mx-auto flex flex-col items-center pb-6 mb-4 md:p-10 md:px-12">
                     <h1 className="text-2xl font-semibold leading-none text-center">Before going any further, be prepared to keep aside everything you know about the way traditional agencies work with their clients. Redapple is a group of unique meditating head who will re-define your branding in order to take it in a new height. Group members come from a diverse range of background, both marketing and non-marketing, but each with independent set of expertise that are invaluable. The great advantage of such a formation is that clients are no longer limited to just the people within the agency redapple lets you to tap into the best strategic minds as well as a surplus of creative production resources.</h1>
                 </div>
