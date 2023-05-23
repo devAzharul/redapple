@@ -52,7 +52,7 @@ const Menu = () => {
         <div className='container mb-10'>
           <h2 className='mb-10 text-6xl text-center'>For Orders</h2>
           <div className='flex justify-around items-center'>
-            <Link className='text-green-600' href="http://www.aciaronno.com" target="_blank" rel="noopener noreferrer"><Image width={200} src={aronno} /></Link>
+            <Link className='text-green-600' href="http://www.aciaronno.com/category-product/Soil-Fertilizer" target="_blank" rel="noopener noreferrer"><Image width={200} src={aronno} /></Link>
             <Link className=' text-green-600' href="https://www.facebook.com/aciseedbd/shop" target="_blank" rel="noopener noreferrer"><Image width={200} src={seed} /></Link>
           </div>
         </div>
