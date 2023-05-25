@@ -30,7 +30,7 @@ const Clients = () => {
   };
   return (
     <div className='pb-20'>
-      <h1 className='pb-5 text-center text-xl font-bold'>Our Trusted Clients</h1>
+      <h1 className='pb-5 text-center text-2xl font-bold'>Our Trusted Clients</h1>
       <div>
         <Slider {...settings}>
           <div>
