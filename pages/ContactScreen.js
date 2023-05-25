@@ -1,6 +1,5 @@
 import React from 'react';
 import Layout from './Layout/Layout';
-import style from '../styles/About.module.css';
 
 const ContactScreen = () => {
     const handleSubmit = (e) => {
@@ -10,8 +9,8 @@ const ContactScreen = () => {
 
     return (
         <Layout title="Contact">
-            <section className={style.body}>
-                <div className="pt-20 py-6 pb-14 dark:bg-gray-800 dark:text-gray-50">
+            <section>
+                <div className="py-6 pb-14 dark:bg-gray-800 dark:text-gray-50">
                     <div className="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">
                         <div className="py-6 md:py-0 md:px-6">
                             <h1 className="text-4xl font-bold">Get in touch</h1>

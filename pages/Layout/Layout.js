@@ -14,8 +14,8 @@ const Layout = ({ title, children }) => {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <div className="min-h-screen flex flex-col justify-between">
-                <Banner />
                 <Navbar />
+                <Banner />
                 <main className="m-auto mt-0 w-full">{children}</main>
                 <Footer />
             </div>

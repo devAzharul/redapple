@@ -26,7 +26,7 @@ const photos = [
 const ClientScreen = () => {
     return (
         <Layout title="Clients">
-            <div className='pb-20 pt-20'>
+            <div className='pb-20'>
                 <PhotoAlbum layout="columns" photos={photos} />
             </div>
         </Layout>

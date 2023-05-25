@@ -10,7 +10,7 @@ const Footer = () => {
             <div>
                 <Image src={barcode} height="100" width="100" />
             </div>
-            <Link className='font-bold' href='https://www.tech-hunt.org' target="_blank"><p>Copyright © 2023 - All right reserved by Tech-Hunt</p></Link>
+            <Link className='font-bold' href='https://www.tech-hunt.org' target="_blank"><p>Copyright © 2023 - All right reserved by redapple</p></Link>
             <div>
                 <Image src={barcode1} height="100" width="100" />
             </div>
